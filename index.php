@@ -281,6 +281,7 @@
             </fieldset>
         </form>
     </div>
+          <?php
     $notify = '';
 $notifyClass = '';
   
@@ -328,6 +329,7 @@ if(isset($_POST['submit'])){
         $notifyClass = 'errordiv';
     }
 }
+          ?>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
